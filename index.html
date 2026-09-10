@@ -1,0 +1,1028 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>寄生虫感染-症状识别、传播途径与科学防治科普指南</title>
+<meta name="description" content="寄生虫感染科普专题：系统介绍常见寄生虫感染的种类、传播途径、典型症状、检查方式、治疗原则与日常预防措施，帮助读者科学认识寄生虫感染并正确就医。">
+<meta name="keywords" content="寄生虫感染,寄生虫病,肠道寄生虫,预防寄生虫,寄生虫检查">
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+<style>
+  :root{
+    --ink:#12303a;
+    --ink-soft:#3c5c66;
+    --teal:#0f7b6c;
+    --teal-dark:#0a5a4f;
+    --teal-light:#e6f4f1;
+    --amber:#c8791a;
+    --amber-light:#fdf3e4;
+    --line:#d8e5e2;
+    --bg:#f6faf9;
+    --white:#ffffff;
+    --radius:14px;
+    --shadow:0 6px 22px rgba(15,70,64,.08);
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{
+    font-family:"PingFang SC","Microsoft YaHei","Hiragino Sans GB",system-ui,-apple-system,sans-serif;
+    color:var(--ink);
+    background:var(--bg);
+    line-height:1.75;
+    font-size:16px;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:var(--teal-dark);text-decoration:none;}
+  a:hover{text-decoration:underline;}
+  img{max-width:100%;display:block;}
+
+  /* ===== 顶部 ===== */
+  .topbar{
+    background:var(--teal-dark);
+    color:#cdeae4;
+    font-size:13px;
+    padding:7px 0;
+  }
+  .topbar .wrap{
+    display:flex;
+    justify-content:space-between;
+    gap:12px;
+    flex-wrap:wrap;
+  }
+  .wrap{
+    width:100%;
+    max-width:1160px;
+    margin:0 auto;
+    padding:0 20px;
+  }
+  header.site-header{
+    background:var(--white);
+    border-bottom:1px solid var(--line);
+    position:sticky;
+    top:0;
+    z-index:50;
+    box-shadow:0 2px 12px rgba(15,70,64,.05);
+  }
+  .header-inner{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:20px;
+    padding:14px 0;
+    flex-wrap:wrap;
+  }
+  .brand{
+    display:flex;
+    align-items:center;
+    gap:12px;
+  }
+  .brand-mark{
+    width:44px;height:44px;
+    border-radius:12px;
+    background:linear-gradient(140deg,var(--teal) 0%,#12a08c 100%);
+    color:#fff;
+    display:flex;align-items:center;justify-content:center;
+    font-size:22px;
+    flex:0 0 auto;
+  }
+  .brand-text strong{
+    display:block;
+    font-size:19px;
+    letter-spacing:.5px;
+  }
+  .brand-text span{
+    display:block;
+    font-size:12px;
+    color:var(--ink-soft);
+    letter-spacing:1px;
+  }
+  nav.main-nav ul{
+    display:flex;
+    list-style:none;
+    gap:6px;
+    flex-wrap:wrap;
+  }
+  nav.main-nav a{
+    display:block;
+    padding:8px 14px;
+    border-radius:999px;
+    font-size:15px;
+    color:var(--ink-soft);
+    transition:.2s;
+  }
+  nav.main-nav a:hover,
+  nav.main-nav a.active{
+    background:var(--teal-light);
+    color:var(--teal-dark);
+    text-decoration:none;
+  }
+
+  /* ===== 首屏 ===== */
+  .hero{
+    background:
+      radial-gradient(circle at 88% 18%,rgba(18,160,140,.18),transparent 52%),
+      linear-gradient(160deg,#0d5c52 0%,#0f7b6c 55%,#149a86 100%);
+    color:#eafaf7;
+    padding:56px 0 48px;
+  }
+  .hero-grid{
+    display:grid;
+    grid-template-columns:1.35fr 1fr;
+    gap:40px;
+    align-items:center;
+  }
+  .hero .tag{
+    display:inline-block;
+    background:rgba(255,255,255,.16);
+    border:1px solid rgba(255,255,255,.28);
+    padding:5px 14px;
+    border-radius:999px;
+    font-size:13px;
+    letter-spacing:1px;
+    margin-bottom:18px;
+  }
+  .hero h1{
+    font-size:34px;
+    line-height:1.35;
+    margin-bottom:16px;
+    font-weight:700;
+  }
+  .hero p.lead{
+    font-size:16.5px;
+    color:#cdeae4;
+    max-width:620px;
+    margin-bottom:26px;
+  }
+  .hero-actions{
+    display:flex;
+    gap:14px;
+    flex-wrap:wrap;
+  }
+  .btn{
+    display:inline-block;
+    padding:11px 26px;
+    border-radius:999px;
+    font-size:15px;
+    font-weight:600;
+    transition:.22s;
+    border:1px solid transparent;
+  }
+  .btn-primary{
+    background:#ffffff;
+    color:var(--teal-dark);
+  }
+  .btn-primary:hover{
+    background:#e6f4f1;
+    text-decoration:none;
+  }
+  .btn-ghost{
+    border-color:rgba(255,255,255,.5);
+    color:#eafaf7;
+  }
+  .btn-ghost:hover{
+    background:rgba(255,255,255,.14);
+    text-decoration:none;
+  }
+  .hero-card{
+    background:rgba(255,255,255,.1);
+    border:1px solid rgba(255,255,255,.24);
+    border-radius:var(--radius);
+    padding:24px;
+    backdrop-filter:blur(2px);
+  }
+  .hero-card h2{
+    font-size:16px;
+    margin-bottom:14px;
+    color:#ffffff;
+    letter-spacing:.5px;
+  }
+  .hero-card ul{
+    list-style:none;
+    display:grid;
+    gap:10px;
+  }
+  .hero-card li{
+    font-size:14.5px;
+    color:#d7f1ec;
+    padding-left:22px;
+    position:relative;
+  }
+  .hero-card li::before{
+    content:"";
+    position:absolute;
+    left:0;top:10px;
+    width:8px;height:8px;
+    border-radius:50%;
+    background:#8fe3d5;
+  }
+
+  /* ===== 通用区块 ===== */
+  section.block{
+    padding:52px 0;
+  }
+  section.block.alt{
+    background:var(--white);
+    border-top:1px solid var(--line);
+    border-bottom:1px solid var(--line);
+  }
+  .section-head{
+    margin-bottom:30px;
+    max-width:760px;
+  }
+  .section-head .kicker{
+    font-size:13px;
+    letter-spacing:2px;
+    color:var(--teal);
+    font-weight:700;
+    text-transform:uppercase;
+  }
+  .section-head h2{
+    font-size:26px;
+    margin:8px 0 10px;
+    line-height:1.4;
+  }
+  .section-head p{
+    color:var(--ink-soft);
+    font-size:15.5px;
+  }
+
+  /* ===== 卡片网格 ===== */
+  .grid{
+    display:grid;
+    gap:22px;
+  }
+  .grid-3{grid-template-columns:repeat(3,1fr);}
+  .grid-4{grid-template-columns:repeat(4,1fr);}
+  .grid-2{grid-template-columns:repeat(2,1fr);}
+
+  .card{
+    background:var(--white);
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    padding:24px;
+    box-shadow:var(--shadow);
+    transition:transform .22s,box-shadow .22s;
+  }
+  .card:hover{
+    transform:translateY(-3px);
+    box-shadow:0 12px 28px rgba(15,70,64,.12);
+  }
+  .card .icon{
+    width:42px;height:42px;
+    border-radius:10px;
+    background:var(--teal-light);
+    color:var(--teal-dark);
+    display:flex;align-items:center;justify-content:center;
+    font-size:20px;
+    margin-bottom:14px;
+  }
+  .card h3{
+    font-size:17.5px;
+    margin-bottom:8px;
+  }
+  .card p{
+    font-size:14.5px;
+    color:var(--ink-soft);
+  }
+  .card ul.mini{
+    margin-top:10px;
+    padding-left:18px;
+    font-size:14px;
+    color:var(--ink-soft);
+  }
+  .card ul.mini li{margin-bottom:4px;}
+
+  /* ===== 传播途径 ===== */
+  .route-list{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:18px;
+  }
+  .route{
+    display:flex;
+    gap:16px;
+    background:var(--white);
+    border:1px solid var(--line);
+    border-left:4px solid var(--teal);
+    border-radius:12px;
+    padding:20px;
+  }
+  .route .num{
+    font-size:22px;
+    font-weight:800;
+    color:var(--teal);
+    line-height:1;
+    flex:0 0 auto;
+    width:34px;
+  }
+  .route h3{
+    font-size:16.5px;
+    margin-bottom:6px;
+  }
+  .route p{
+    font-size:14.5px;
+    color:var(--ink-soft);
+  }
+
+  /* ===== 症状表 ===== */
+  .table-wrap{
+    overflow-x:auto;
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    background:var(--white);
+  }
+  table{
+    width:100%;
+    border-collapse:collapse;
+    min-width:640px;
+    font-size:14.5px;
+  }
+  thead th{
+    background:var(--teal-light);
+    color:var(--teal-dark);
+    text-align:left;
+    padding:14px 18px;
+    font-size:14.5px;
+    white-space:nowrap;
+  }
+  tbody td{
+    padding:14px 18px;
+    border-top:1px solid var(--line);
+    color:var(--ink-soft);
+    vertical-align:top;
+  }
+  tbody tr:nth-child(even){background:#fafdfc;}
+  tbody td strong{color:var(--ink);}
+
+  /* ===== 检查与就医步骤 ===== */
+  .steps{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:18px;
+  }
+  .step{
+    background:var(--white);
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    padding:22px 20px;
+    position:relative;
+  }
+  .step .badge{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    width:30px;height:30px;
+    border-radius:50%;
+    background:var(--teal);
+    color:#fff;
+    font-size:14px;
+    font-weight:700;
+    margin-bottom:12px;
+  }
+  .step h3{font-size:16px;margin-bottom:8px;}
+  .step p{font-size:14px;color:var(--ink-soft);}
+
+  /* ===== 提示框 ===== */
+  .notice{
+    background:var(--amber-light);
+    border:1px solid #f0d9b0;
+    border-left:4px solid var(--amber);
+    border-radius:12px;
+    padding:20px 24px;
+    margin-top:28px;
+  }
+  .notice h3{
+    font-size:16px;
+    color:#8a5210;
+    margin-bottom:8px;
+  }
+  .notice p{
+    font-size:14.5px;
+    color:#7a5316;
+  }
+
+  /* ===== 预防清单 ===== */
+  .prevent-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:18px;
+  }
+  .prevent-item{
+    background:var(--white);
+    border:1px solid var(--line);
+    border-radius:12px;
+    padding:20px;
+  }
+  .prevent-item h3{
+    font-size:16px;
+    margin-bottom:10px;
+    display:flex;
+    align-items:center;
+    gap:8px;
+  }
+  .prevent-item h3 .dot{
+    width:9px;height:9px;border-radius:50%;
+    background:var(--teal);
+    flex:0 0 auto;
+  }
+  .prevent-item ul{
+    padding-left:18px;
+    font-size:14.2px;
+    color:var(--ink-soft);
+  }
+  .prevent-item ul li{margin-bottom:5px;}
+
+  /* ===== 侧栏 + 正文双栏 ===== */
+  .two-col{
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    gap:34px;
+    align-items:start;
+  }
+  .article-body h3{
+    font-size:18px;
+    margin:26px 0 10px;
+  }
+  .article-body h3:first-child{margin-top:0;}
+  .article-body p{
+    font-size:15.2px;
+    color:var(--ink-soft);
+    margin-bottom:12px;
+  }
+  aside.side{
+    display:grid;
+    gap:20px;
+  }
+  .side-card{
+    background:var(--white);
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    padding:22px;
+    box-shadow:var(--shadow);
+  }
+  .side-card h3{
+    font-size:16px;
+    margin-bottom:14px;
+    padding-bottom:10px;
+    border-bottom:1px solid var(--line);
+  }
+  .side-card ul{
+    list-style:none;
+    display:grid;
+    gap:11px;
+  }
+  .side-card li{
+    font-size:14.2px;
+    color:var(--ink-soft);
+    padding-left:20px;
+    position:relative;
+  }
+  .side-card li::before{
+    content:"✓";
+    position:absolute;
+    left:0;
+    color:var(--teal);
+    font-weight:700;
+  }
+
+  /* ===== FAQ ===== */
+  .faq{
+    display:grid;
+    gap:14px;
+  }
+  details{
+    background:var(--white);
+    border:1px solid var(--line);
+    border-radius:12px;
+    padding:0 22px;
+    box-shadow:var(--shadow);
+  }
+  details[open]{
+    border-color:#b8ded7;
+  }
+  summary{
+    cursor:pointer;
+    padding:18px 0;
+    font-size:16px;
+    font-weight:600;
+    list-style:none;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:14px;
+  }
+  summary::-webkit-details-marker{display:none;}
+  summary::after{
+    content:"＋";
+    color:var(--teal);
+    font-weight:700;
+    font-size:18px;
+    flex:0 0 auto;
+  }
+  details[open] summary::after{content:"－";}
+  details p{
+    font-size:14.6px;
+    color:var(--ink-soft);
+    padding-bottom:20px;
+    border-top:1px dashed var(--line);
+    padding-top:14px;
+  }
+
+  /* ===== 页脚 ===== */
+  footer.site-footer{
+    background:#0d3b36;
+    color:#9fc9c2;
+    padding:46px 0 26px;
+    font-size:14px;
+  }
+  .footer-grid{
+    display:grid;
+    grid-template-columns:1.6fr 1fr 1fr 1fr;
+    gap:30px;
+    margin-bottom:32px;
+  }
+  .footer-grid h4{
+    color:#ffffff;
+    font-size:15px;
+    margin-bottom:14px;
+  }
+  .footer-grid p{
+    font-size:13.6px;
+    line-height:1.85;
+    color:#9fc9c2;
+  }
+  .footer-grid ul{
+    list-style:none;
+    display:grid;
+    gap:9px;
+  }
+  .footer-grid ul a{
+    color:#9fc9c2;
+    font-size:13.6px;
+  }
+  .footer-grid ul a:hover{color:#ffffff;}
+  .footer-bottom{
+    border-top:1px solid rgba(255,255,255,.14);
+    padding-top:20px;
+    display:flex;
+    justify-content:space-between;
+    gap:14px;
+    flex-wrap:wrap;
+    font-size:13px;
+    color:#7fb0a8;
+  }
+
+  /* ===== 响应式 ===== */
+  @media (max-width:980px){
+    .hero-grid{grid-template-columns:1fr;gap:30px;}
+    .grid-4{grid-template-columns:repeat(2,1fr);}
+    .grid-3{grid-template-columns:repeat(2,1fr);}
+    .steps{grid-template-columns:repeat(2,1fr);}
+    .prevent-grid{grid-template-columns:repeat(2,1fr);}
+    .two-col{grid-template-columns:1fr;}
+    .footer-grid{grid-template-columns:1fr 1fr;}
+  }
+  @media (max-width:640px){
+    body{font-size:15.4px;}
+    .hero{padding:40px 0 36px;}
+    .hero h1{font-size:25px;}
+    .grid-4,.grid-3,.grid-2,.route-list,.steps,.prevent-grid{grid-template-columns:1fr;}
+    .section-head h2{font-size:21.5px;}
+    section.block{padding:38px 0;}
+    .header-inner{padding:12px 0;}
+    nav.main-nav ul{gap:2px;}
+    nav.main-nav a{padding:7px 11px;font-size:14px;}
+    .footer-grid{grid-template-columns:1fr;}
+    .brand-text strong{font-size:17px;}
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap">
+    <span>健康科普 · 寄生虫感染知识专题</span>
+    <span>内容仅供参考，不能替代医生面诊与专业检验</span>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <div class="brand">
+      <div class="brand-mark">寄</div>
+      <div class="brand-text">
+        <strong>寄生虫感染科普站</strong>
+        <span>PARASITIC INFECTION GUIDE</span>
+      </div>
+    </div>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="#types" class="active">常见类型</a></li>
+        <li><a href="#routes">传播途径</a></li>
+        <li><a href="#symptoms">症状对照</a></li>
+        <li><a href="#diagnosis">检查就医</a></li>
+        <li><a href="#prevention">日常预防</a></li>
+        <li><a href="#faq">常见问答</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- 首屏 -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="tag">科学认识 · 及时识别 · 规范处理</span>
+        <h1>寄生虫感染：从传播途径到科学防治的完整认识</h1>
+        <p class="lead">
+          寄生虫感染是指寄生虫侵入人体并在体内寄生、繁殖或移行所引起的一类疾病。它既可能来自不洁饮食与饮水，
+          也可能与接触土壤、宠物、生鲜水产或特定地区的环境有关。多数寄生虫感染在早期症状并不典型，
+          因此了解传播方式、识别可疑信号、选择正确的检查途径，比自行用药更重要。
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#types">了解常见类型</a>
+          <a class="btn btn-ghost" href="#diagnosis">查看检查与就医建议</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <h2>阅读本页可以了解</h2>
+        <ul>
+          <li>常见寄生虫感染的分类与典型寄生部位</li>
+          <li>经口、经皮肤、媒介叮咬等主要传播途径</li>
+          <li>消化、皮肤、全身等不同表现的识别思路</li>
+          <li>粪便、血液、影像等检查方式的基本用途</li>
+          <li>饮食卫生、宠物管理与环境防护要点</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 常见类型 -->
+  <section class="block" id="types">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">Types</span>
+        <h2>常见的寄生虫感染类型</h2>
+        <p>寄生虫种类繁多，按形态大致可分为原虫、蠕虫和节肢动物等。不同种类的寄生部位、传播方式和引起的表现差异很大，以下按常见类别作概括性介绍，便于建立整体认识。</p>
+      </div>
+      <div class="grid grid-4">
+        <article class="card">
+          <div class="icon">肠</div>
+          <h3>肠道原虫与蠕虫</h3>
+          <p>主要寄生于消化道，多与饮食、饮水卫生相关，可引起腹泻、腹痛、腹胀、食欲改变等表现。</p>
+          <ul class="mini">
+            <li>常见关注对象：阿米巴、贾第虫、蛔虫、蛲虫等</li>
+            <li>儿童与集体生活人群需留意</li>
+          </ul>
+        </article>
+        <article class="card">
+          <div class="icon">血</div>
+          <h3>血液与组织寄生虫</h3>
+          <p>寄生于血液或内脏组织，常通过蚊虫等媒介传播，早期可表现为发热、乏力等全身性症状。</p>
+          <ul class="mini">
+            <li>与流行地区旅行史关系密切</li>
+            <li>需结合流行病学史判断</li>
+          </ul>
+        </article>
+        <article class="card">
+          <div class="icon">皮</div>
+          <h3>皮肤与皮下寄生虫</h3>
+          <p>可造成皮肤瘙痒、皮疹、皮下结节或移行性改变，常与接触土壤、水体或动物有关。</p>
+          <ul class="mini">
+            <li>注意皮损形态与出现部位</li>
+            <li>避免抓挠造成继发感染</li>
+          </ul>
+        </article>
+        <article class="card">
+          <div class="icon">肝</div>
+          <h3>肝胆与肺部寄生虫</h3>
+          <p>部分寄生虫可寄生于肝胆管或肺部，与生食淡水鱼虾、螺类等饮食习惯存在关联。</p>
+          <ul class="mini">
+            <li>生食水产是重要风险因素</li>
+            <li>多需影像与实验室检查配合</li>
+          </ul>
+        </article>
+      </div>
+      <div class="notice">
+        <h3>需要说明的是</h3>
+        <p>上述分类仅为便于理解的概括，实际诊断需由医生结合症状、生活与饮食史、旅行史以及检验结果综合判断。出现不适时，不建议根据网络信息自行判断种类或购买驱虫药物服用。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 传播途径 -->
+  <section class="block alt" id="routes">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">Transmission</span>
+        <h2>寄生虫感染的常见传播途径</h2>
+        <p>了解传播途径，是判断自身风险与采取预防措施的基础。多数日常可防范的感染，都与饮食、手部卫生和环境接触有关。</p>
+      </div>
+      <div class="route-list">
+        <div class="route">
+          <div class="num">01</div>
+          <div>
+            <h3>经口摄入</h3>
+            <p>食用未煮熟的肉类、淡水鱼虾、螺类，或饮用未经处理的水，以及食用被虫卵污染、未洗净的蔬菜瓜果，都可能造成感染。这是日常最常见的途径之一。</p>
+          </div>
+        </div>
+        <div class="route">
+          <div class="num">02</div>
+          <div>
+            <h3>经皮肤或黏膜侵入</h3>
+            <p>在特定环境中，幼虫可经皮肤接触侵入人体，例如赤足行走于可能被污染的潮湿土壤或水体附近。此类情况与地区环境条件关系较大。</p>
+          </div>
+        </div>
+        <div class="route">
+          <div class="num">03</div>
+          <div>
+            <h3>媒介生物叮咬</h3>
+            <p>蚊、蝇、蜱等节肢动物可作为传播媒介，将病原体从一处带到另一处。防蚊、防虫措施在相关地区尤为重要。</p>
+          </div>
+        </div>
+        <div class="route">
+          <div class="num">04</div>
+          <div>
+            <h3>接触动物与宠物</h3>
+            <p>与宠物、家畜接触后未及时洗手，或清理其粪便时缺乏防护，可能增加感染机会。定期为宠物做健康管理有助于降低风险。</p>
+          </div>
+        </div>
+        <div class="route">
+          <div class="num">05</div>
+          <div>
+            <h3>人际与生活接触</h3>
+            <p>部分肠道寄生虫可通过被污染的手、玩具、餐具、被褥等间接传播，在托幼机构、集体宿舍等环境中更需注意手卫生。</p>
+          </div>
+        </div>
+        <div class="route">
+          <div class="num">06</div>
+          <div>
+            <h3>特定地区与环境暴露</h3>
+            <p>前往某些流行地区旅行、参与涉水活动或从事农业、林业等户外作业，可能增加接触机会。出行前了解目的地健康提示是有益的准备。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 症状对照 -->
+  <section class="block" id="symptoms">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">Symptoms</span>
+        <h2>不同寄生部位可能出现的表现</h2>
+        <p>寄生虫感染的表现往往缺乏特异性，容易与普通消化道不适、过敏或疲劳混淆。下表按常见寄生部位归纳一般性表现，仅供识别参考，不作为诊断依据。</p>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>寄生部位</th>
+              <th>可能出现的常见表现</th>
+              <th>需要留意的情况</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>消化道</strong></td>
+              <td>腹泻或腹泻与便秘交替、腹痛腹胀、食欲下降、恶心、肛门周围瘙痒（多见于夜间）</td>
+              <td>症状持续数周、反复发作，或伴随明显消瘦</td>
+            </tr>
+            <tr>
+              <td><strong>肝胆系统</strong></td>
+              <td>右上腹不适、消化不良、乏力，部分人可出现黄疸相关表现</td>
+              <td>有长期生食淡水鱼虾、螺类习惯者应主动告知医生</td>
+            </tr>
+            <tr>
+              <td><strong>呼吸系统</strong></td>
+              <td>慢性咳嗽、咳痰、胸闷，部分人伴有低热</td>
+              <td>常规呼吸道治疗效果不明显时，需考虑其他可能</td>
+            </tr>
+            <tr>
+              <td><strong>皮肤与皮下</strong></td>
+              <td>皮肤瘙痒、皮疹、皮下结节、可见的移行性线条或局部红肿</td>
+              <td>皮损逐渐扩大或反复出现，避免自行挤压抓挠</td>
+            </tr>
+            <tr>
+              <td><strong>血液与全身</strong></td>
+              <td>发热、畏寒、乏力、贫血相关表现、淋巴结肿大</td>
+              <td>有流行地区旅居史或蚊虫叮咬史时，应尽快就医</td>
+            </tr>
+            <tr>
+              <td><strong>眼部与神经系统</strong></td>
+              <td>眼部不适、视力异常；头痛、抽搐等神经系统表现（相对少见但需重视）</td>
+              <td>此类表现应视为需要及时就诊的信号</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="notice">
+        <h3>什么情况下应尽快就医</h3>
+        <p>出现持续或反复的消化道症状、不明原因发热、明显消瘦、皮肤出现可疑移行性皮损，或曾有明确的高风险饮食与旅行史并伴随不适时，建议尽早到正规医疗机构就诊，并主动向医生说明饮食、旅行与宠物接触情况。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 检查与就医 -->
+  <section class="block alt" id="diagnosis">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">Diagnosis</span>
+        <h2>检查思路与就医流程</h2>
+        <p>寄生虫感染的诊断通常需要症状、流行病学史与实验室检查相互印证。以下流程为一般性梳理，具体检查项目由医生根据实际情况决定。</p>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <span class="badge">1</span>
+          <h3>就诊与病史说明</h3>
+          <p>向医生描述症状出现时间、频率与变化，并主动说明饮食习惯、饮水来源、旅行经历、宠物接触及职业环境。</p>
+        </div>
+        <div class="step">
+          <span class="badge">2</span>
+          <h3>实验室检查</h3>
+          <p>根据怀疑方向，可能安排粪便、血液等标本检查。部分寄生虫存在排出间歇性，医生可能建议多次采样以提高检出可能。</p>
+        </div>
+        <div class="step">
+          <span class="badge">3</span>
+          <h3>影像与辅助检查</h3>
+          <p>当怀疑累及肝胆、肺、脑等部位时，可能借助超声、影像等手段了解组织结构变化，与实验室结果相互补充。</p>
+        </div>
+        <div class="step">
+          <span class="badge">4</span>
+          <h3>规范治疗与随访</h3>
+          <p>治疗方案由医生依据具体诊断制定。用药期间应按医嘱完成疗程，必要时复查，避免症状缓解后自行停药。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 预防 + 侧栏 -->
+  <section class="block" id="prevention">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">Prevention</span>
+        <h2>日常预防：把风险挡在入口之前</h2>
+        <p>对大多数常见的寄生虫感染而言，预防的核心是饮食安全、手部卫生与环境管理。这些措施同时也有助于预防多种肠道传染病。</p>
+      </div>
+      <div class="two-col">
+        <div class="article-body">
+          <h3>饮食与饮水安全</h3>
+          <p>肉类、淡水鱼虾、螺类等食材应充分加热至熟透，避免生食或半生食。处理生食与熟食的刀具、砧板、容器建议分开使用，避免交叉污染。饮用水应选择煮沸或符合安全标准的水源，外出时对来源不明的水与冰块保持谨慎。</p>
+          <p>蔬菜瓜果在食用前应充分清洗，能去皮的建议去皮。凉拌类食物在制作过程中更要注意操作台面与手部的清洁。</p>
+
+          <h3>手部与个人卫生</h3>
+          <p>饭前便后、处理生食之后、接触宠物或土壤之后，应使用流动水和洗手用品认真洗手。指甲缝、指间等部位容易被忽略，需注意清洁。儿童在户外活动后、进食前，家长可协助完成洗手。</p>
+          <p>毛巾、水杯、餐具等个人物品建议专人专用，在集体生活环境中尤为重要。</p>
+
+          <h3>宠物与家畜管理</h3>
+          <p>定期为宠物进行健康检查与必要的驱虫管理，及时清理其排泄物并做好防护。清理后应洗手，孕妇、儿童与免疫力较低人群尽量减少直接接触宠物粪便。宠物食物与人类食物应分开存放与处理。</p>
+
+          <h3>户外与环境防护</h3>
+          <p>在卫生条件不明的地区，避免赤足行走于潮湿土壤或涉水。户外活动时可穿长袖长裤，必要时使用防蚊虫措施。从事农业、林业等户外作业后，应及时清洁双手与身体暴露部位。</p>
+
+          <h3>旅行前的准备</h3>
+          <p>前往不同地区前，可提前了解当地常见的健康风险与饮食饮水建议，选择卫生条件有保障的餐饮与住宿。返程后如出现持续不适，就诊时应主动告知旅行史，这对判断方向很有帮助。</p>
+        </div>
+        <aside class="side">
+          <div class="side-card">
+            <h3>预防要点速览</h3>
+            <ul>
+              <li>食材充分加热，不生食高风险水产</li>
+              <li>生熟分开，避免交叉污染</li>
+              <li>饮用煮沸或安全水源的水</li>
+              <li>饭前便后认真洗手</li>
+              <li>蔬菜瓜果洗净，能去皮则去皮</li>
+              <li>宠物定期健康管理与驱虫</li>
+              <li>户外注意防蚊虫与足部防护</li>
+              <li>旅行返程后不适主动告知医生</li>
+            </ul>
+          </div>
+          <div class="side-card">
+            <h3>容易忽视的细节</h3>
+            <ul>
+              <li>处理生肉后未洗手即接触其他食物</li>
+              <li>同一块砧板既切生肉又切熟食</li>
+              <li>儿童在户外玩耍后直接进食</li>
+              <li>清理宠物粪便时未做防护</li>
+              <li>症状缓解后自行中断治疗</li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="block alt" id="faq">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">FAQ</span>
+        <h2>关于寄生虫感染的常见问题</h2>
+        <p>以下回答基于一般性健康知识整理，用于帮助理解，不构成诊断或治疗建议。</p>
+      </div>
+      <div class="faq">
+        <details open>
+          <summary>感染寄生虫后一定会出现明显症状吗？</summary>
+          <p>不一定。感染后的表现与寄生虫种类、数量、寄生部位以及个人身体状况有关。部分人可能症状轻微甚至一时没有明显感觉，也有部分人会出现较明显的消化道、皮肤或全身表现。因此，有明确高风险暴露史时，即使症状不明显，也可以咨询医生是否需要检查。</p>
+        </details>
+        <details>
+          <summary>怀疑感染时可以自己买驱虫药服用吗？</summary>
+          <p>不建议。不同寄生虫对应的处理方式并不相同，用药种类、剂量与疗程需结合具体诊断确定。自行用药可能掩盖症状、影响后续检查结果，也可能带来不必要的药物风险。较为稳妥的做法是先就诊，由医生判断是否需要检查与用药。</p>
+        </details>
+        <details>
+          <summary>家里养宠物，是不是很容易被传染？</summary>
+          <p>养宠物本身并不意味着一定会被传染。关键在于日常管理：定期为宠物做健康检查与驱虫，及时清理排泄物并做好防护，接触宠物后洗手，不让宠物进入厨房操作区域或与餐具接触。做好这些环节，可以明显降低相关风险。</p>
+        </details>
+        <details>
+          <summary>吃生鱼片、醉虾等食物风险大吗？</summary>
+          <p>生食或半生食淡水鱼虾、螺类等，与部分寄生虫感染存在明确关联，属于需要谨慎对待的饮食方式。海水产品与淡水产品的风险因素并不完全相同，但总体而言，充分加热是更为稳妥的处理方式。若确实食用过此类食物并出现持续不适，就诊时请主动说明。</p>
+        </details>
+        <details>
+          <summary>检查一次没有发现，是不是就可以排除？</summary>
+          <p>部分寄生虫的排出存在间歇性，单次检查结果可能受采样时间与标本情况影响。医生会根据具体情况判断是否需要多次采样或结合其他检查方式。因此，检查结果的解读应由医生结合整体情况完成，不宜仅凭一次结果自行下结论。</p>
+        </details>
+        <details>
+          <summary>儿童为什么更需要关注这类问题？</summary>
+          <p>儿童在户外活动、与同伴玩耍、接触土壤与宠物时，手部卫生容易被忽视；同时部分肠道寄生虫在集体环境中存在间接传播的可能。帮助孩子养成洗手习惯、注意饮食卫生、定期清洁玩具与用品，是较为实际的防护方式。</p>
+        </details>
+        <details>
+          <summary>治疗后还需要注意什么？</summary>
+          <p>按医嘱完成疗程并按时复查是重要环节。同时应回顾可能的风险来源，调整饮食与卫生习惯，避免再次暴露。如果家庭成员中存在类似情况，医生可能会建议共同关注相关防护措施。</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h4>寄生虫感染科普站</h4>
+        <p>本专题围绕寄生虫感染的常见类型、传播途径、症状识别、检查就医与日常预防进行系统整理，帮助读者建立科学、理性的认识，遇到健康问题时及时寻求专业医疗帮助。</p>
+      </div>
+      <div>
+        <h4>内容导航</h4>
+        <ul>
+          <li><a href="#types">常见类型</a></li>
+          <li><a href="#routes">传播途径</a></li>
+          <li><a href="#symptoms">症状对照</a></li>
+          <li><a href="#diagnosis">检查就医</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>预防专题</h4>
+        <ul>
+          <li><a href="#prevention">饮食与饮水安全</a></li>
+          <li><a href="#prevention">手部与个人卫生</a></li>
+          <li><a href="#prevention">宠物与家畜管理</a></li>
+          <li><a href="#prevention">户外与环境防护</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>阅读提示</h4>
+        <ul>
+          <li><a href="#faq">常见问答</a></li>
+          <li><a href="#diagnosis">就医流程说明</a></li>
+          <li><a href="#symptoms">需要及时就诊的信号</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>本页内容为健康科普整理，仅供参考，不构成诊断、治疗或用药建议。</span>
+      <span>如有不适，请前往正规医疗机构就诊。</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  (function () {
+    var links = document.querySelectorAll('nav.main-nav a');
+    var sections = [];
+    links.forEach(function (a) {
+      var id = a.getAttribute('href');
+      if (id && id.charAt(0) === '#') {
+        var el = document.querySelector(id);
+        if (el) sections.push({ link: a, el: el });
+      }
+    });
+    if (!sections.length || !('IntersectionObserver' in window)) return;
+
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (!entry.isIntersecting) return;
+        sections.forEach(function (item) {
+          item.link.classList.toggle('active', item.el === entry.target);
+        });
+      });
+    }, { rootMargin: '-45% 0px -50% 0px', threshold: 0 });
+
+    sections.forEach(function (item) { observer.observe(item.el); });
+  })();
+</script>
+
+</body>
+  </html>
